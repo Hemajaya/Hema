@@ -9,6 +9,7 @@ import org.springframework.context.annotation.ComponentScan;
 public class HemaApplication {
 	
 	public static void main(String[] args) {
+		System.out.println("new");
 		SpringApplication.run(HemaApplication.class, args);
 	}
 }
